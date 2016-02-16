@@ -8,4 +8,5 @@ class DeveloperMigration <ActiveRevord::Migration
       t.string :email
       t.date :start_date
     end
+  end
 end

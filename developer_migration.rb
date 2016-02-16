@@ -1,6 +1,6 @@
 require 'activerecord'
 
-class DeveloperMigration <ActiveRevord::Migration
+class DeveloperMigration <ActiveRecord::Migration
   def change
     create_table :developer do |t|
       t.string :first_name
